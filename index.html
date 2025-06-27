@@ -1,1 +1,124 @@
-<p>hello world</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven Cafe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Brew Haven</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Artisanal Coffee & Homemade Pastries</h1>
+            <p>Discover the perfect blend of flavor and comfort</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-categories">
+            <div class="category">
+                <h3>Coffee</h3>
+                <div class="menu-item">
+                    <h4>Espresso</h4>
+                    <p>Rich and intense</p>
+                    <span>$3.50</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Cappuccino</h4>
+                    <p>Espresso with steamed milk</p>
+                    <span>$4.50</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Latte</h4>
+                    <p>Smooth and creamy</p>
+                    <span>$4.75</span>
+                </div>
+            </div>
+            
+            <div class="category">
+                <h3>Pastries</h3>
+                <div class="menu-item">
+                    <h4>Croissant</h4>
+                    <p>Buttery and flaky</p>
+                    <span>$3.25</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Blueberry Muffin</h4>
+                    <p>Fresh blueberries in every bite</p>
+                    <span>$3.75</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Cinnamon Roll</h4>
+                    <p>Warm with cream cheese icing</p>
+                    <span>$4.25</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2>Our Story</h2>
+            <p>Founded in 2010, Brew Haven began as a small coffee cart downtown. Through our passion for quality ingredients and community, we've grown into the cozy neighborhood cafe you see today. Every cup is brewed with care, and every pastry is made fresh daily.</p>
+            <div class="hours">
+                <h3>Hours</h3>
+                <p>Monday - Friday: 7am - 7pm</p>
+                <p>Saturday - Sunday: 8am - 6pm</p>
+            </div>
+        </div>
+        <div class="about-image"></div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Visit Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Lane, Beanville</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> hello@brewhaven.com</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send us a message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Brew Haven Cafe. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
